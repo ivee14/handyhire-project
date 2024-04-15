@@ -596,4 +596,185 @@ Body {
   padding: 1rem;
 }
 
+Body {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.port_section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.port_section_div {
+  width: 30%;
+}
+.port_section_div button {
+  background-color: #4862be;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  width: 180px;
+  padding: 7px;
+}
+.port_section_div .text {
+  margin-top: 2rem;
+}
+.port_section_div2 {
+  width: 70%;
+}
+.port_section_div2 input {
+  width: 553px;
+  border-radius: 7px;
+  padding: 10px;
+  margin-bottom: 2rem;
+}
+.port_section_div2 span {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 2rem;
+}
+.port_section_div2 span .btn1 {
+  background-color: white;
+  border: 1px solid #4862be;
+  color: black;
+  border-radius: 7px;
+  width: 180px;
+  padding: 7px;
+}
+.port_section_div2 span .btn2 {
+  background-color: #4862be;
+  border: none;
+  color: white;
+  border-radius: 7px;
+  width: 180px;
+  padding: 7px;
+}
+
+.preview .button {
+  background-color: #4862be;
+  border: none;
+  height: 40px;
+  border: none;
+  border-radius: 7px;
+  width: 150px;
+}
+.preview button {
+  background-color: #4862be;
+  border: none;
+  color: white;
+}
+
+Body {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.preview_section {
+  width: 100%;
+}
+.preview_section_div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.preview_section_div .prev {
+  width: 30%;
+}
+.preview_section_div .prev h6 {
+  margin-top: 2rem;
+}
+.preview_section_div .prev button {
+  background-color: #4862be;
+  border: none;
+  color: white;
+  padding: 7px;
+  border-radius: 3px;
+  width: 150px;
+  text-align: left;
+}
+.preview_section .preview {
+  width: 70%;
+  display: flex;
+}
+.preview_section .preview .preview_div p {
+  width: 70%;
+  margin-top: 5rem;
+}
+.preview_section .preview .preview_div1 {
+  width: 100%;
+}
+.preview_section .preview .preview_div1 span {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 1rem;
+}
+.preview_section .notification {
+  margin-top: 5rem;
+}
+.preview_section .notification span {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin-top: 1rem;
+}
+.preview_section .notification span input {
+  width: 30px;
+}
+.preview_section .buttonn {
+  float: right;
+  margin-right: 4rem;
+  background-color: #4862be;
+  border: none;
+  color: white;
+  padding: 7px;
+  border-radius: 3px;
+  width: 150px;
+  text-align: left;
+}
+
+.password {
+  width: 75%;
+}
+.password_div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+.password_div input {
+  width: 30px;
+}
+.password_div p {
+  margin-top: 1rem;
+}
+.password_div .edit {
+  background-color: #4862be;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  width: 140px;
+  height: 30px;
+}
+.password_div .edit button {
+  background-color: #4862be;
+  border: none;
+  color: white;
+}
+.password .edits {
+  background-color: #4862be;
+  border: none;
+  color: white;
+  border-radius: 3px;
+  width: 400px;
+  height: 30px;
+  margin-left: 6rem;
+}
+
 /*# sourceMappingURL=style.css.map */
