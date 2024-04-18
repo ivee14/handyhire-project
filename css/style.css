@@ -777,4 +777,146 @@ Body {
   margin-left: 6rem;
 }
 
+Body {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.helpcenter {
+  height: 100vh;
+  width: 100%;
+}
+.helpcenter_nav {
+  width: 20%;
+}
+.helpcenter .help {
+  width: 65%;
+  margin-left: 5%;
+}
+.helpcenter .accordion {
+  width: 400px;
+  margin-top: 4rem;
+  margin-right: 1rem;
+  height: 300px;
+}
+.helpcenter .help_header {
+  width: 40%;
+}
+.helpcenter .help_header .frame {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  padding: 0.5rem;
+  text-align: center;
+  border-radius: 10px;
+  width: 70px;
+  margin-left: 2rem;
+}
+.helpcenter_footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+}
+.helpcenter_footer .help_box {
+  background-color: #FB5404;
+  width: 650px;
+  padding: 2rem;
+  border-radius: 20px;
+  color: white;
+  height: 300px;
+}
+.helpcenter_footer .help_box .box {
+  display: flex;
+}
+.helpcenter_footer .help_box .box span {
+  background-color: white;
+  z-index: 999;
+  color: black;
+  padding: 10px;
+  margin-left: 5px;
+  border-radius: 12px;
+}
+.helpcenter_footer .help_box .box span img {
+  margin-left: 5rem;
+}
+
+Body {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.chatbox {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  height: 80vh;
+  overflow: scroll;
+}
+.chatbox .Messages {
+  margin-left: 2rem;
+}
+.chatbox .Messages .message {
+  display: flex;
+  justify-content: space-between;
+  width: 370px;
+}
+.chatbox .Messages .message .img {
+  width: 40px;
+  height: 40px;
+}
+.chatbox .Messages .message .image {
+  width: 32px;
+  height: 32px;
+  margin-left: 0.6rem;
+}
+.chatbox .area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chatbox .area textarea {
+  background-color: #D9D9D9;
+  border: none;
+  border-radius: 5px;
+}
+
+body {
+  width: 100%;
+  height: 80vh;
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  background-image: url(/images/wall.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landingpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  width: 100%;
+}
+.landingpage button {
+  background-color: #4862be;
+  border: none;
+  color: white;
+  padding: 7px;
+  border-radius: 7px;
+  width: 42%;
+  margin-top: 4rem;
+  margin-left: 1rem;
+}
+.landingpage button a {
+  color: white;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
