@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/icofont.css" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <title>Payment</title>
+  </head>
+  <body>
+    <div class="Transaction">
+      <div style="width: 40%">
+
+          <div> 
+             <div>
+                <span
+                style="display: flex; justify-content: space-between; width: 100%"
+              >
+              <span class="d-flex"
+              ><input type="checkbox" />
+              <h6 style="margin: .7rem 0 0 1rem;">Payment Card</h6></span>
+                <span
+                  ><img src="images/verve.png" alt="" width="40px" />
+                  <img src="images/visa.png" alt="" width="40px" />
+                  <img src="images/Frame.png" alt="" width="40px" />
+                </span>
+                </span>
+                <span class="d-flex mt-4"
+                ><input type="checkbox" />
+                <h6 style="margin: 0 0 0 1rem">Transfer</h6></span>
+                <span
+                style="display: flex; justify-content: space-between; width: 100%"
+              >
+                <p style="margin-top: 2.5rem;">Payment amount</p> 
+              
+                <span class="button btn"><img src="images/pencil.png" alt="#"><button>Edit Profile</button></span>
+               
+                 </span>
+             </div>
+            <span>
+              <p>#5,000</p>
+              <form action="">
+                <label for="">Card Number</label>
+                <input type="text" placeholder="1234 5678 9012 3456" />
+                <label for="">Card Name</label>
+                <input type="text" placeholder="Mary" />
+                <label for="">Last Name</label>
+                <input type="text" placeholder="Maxwell" />
+                <label for="">Expiration month</label>
+                <input type="text" placeholder="Jan" />
+                <label for="">Expiration Year</label>
+                <input type="text" placeholder="MM" />
+                <label for="">Security code</label>
+                <input type="text" placeholder="3 - digits" />
+              </form>
+            </span>
+            <button>Pay #5,000</button>
+          </div>
+      </div>
+    </div>
+    
+    <style>
+      .Transaction {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+      }
+      form input {
+        width: 100%;
+        display: block;
+        margin-bottom: 1rem;
+        border-radius: 7px;
+        border: 1px solid rgb(57, 57, 59);
+        padding: 8px;
+      }
+      button {
+        background-color: #4862be;
+        border: none;
+        border-radius: 7px;
+        color: white;
+        width: 100%;
+        padding: 0.5rem;
+      }
+      input::placeholder {
+        color: blue;
+      }
+    </style>
+  </body>
+</html>
