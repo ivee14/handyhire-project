@@ -66,7 +66,7 @@ Body {
 }
 .create_account_page .img {
   width: 45%;
-  height: 130vh;
+  height: 200vh;
 }
 .create_account_page_form {
   width: 55%;
@@ -541,13 +541,18 @@ Body {
 .arrow_div_heading {
   padding-left: 1.5rem;
 }
-.arrow_div_heading button {
+.arrow_div_heading .contact {
   background-color: #4862be;
   border: none;
   color: white;
   padding: 7px;
   border-radius: 7px;
   width: 130px;
+}
+.arrow_div_heading .call {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border: 1px solid rgb(245, 240, 240);
 }
 
 .info_section {
